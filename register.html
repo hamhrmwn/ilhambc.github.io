@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Masuk Akun</title>
+	<link rel="stylesheet" href="assets/css/register.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container-left">
+		  <img src="assets/img/img-login.jpg" alt="form-login">
+		</div>
+		<div class="container-right">
+		  <h2>Silahkan Registrasi</h2><br>
+		  <form method="post" action="index.html">
+		  	<div class="input">
+		  		<label for="">Nama Lengkap</label>
+		  		<input type="text">
+		  	</div>
+            <div class="input">
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+            <div class="input">
+                <label for="isian-telpon">Nomor HP</label>
+                <input
+                  id="isian-telpon"
+                  type="tel"
+                  pattern="[0-9]{4}[0-9]{4}[0-9]{4}"
+                >
+            </div>
+		  	<div class="input">
+		  		<label for="">Kata Sandi</label>
+		  		<input type="password">
+		  	</div>
+            <button type="submit" class="submit-daftar">Daftar</button>
+		  </form>
+          <form method="post" action="login.html">
+            <button type="submit" class="ke-masuk">Masuk</button>
+           </form>
+		</div>
+	</div>
+</body>
+</html>
