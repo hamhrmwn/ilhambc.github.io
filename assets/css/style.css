@@ -207,7 +207,7 @@ p {
     background-color: #3f72af;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991.98px) {
     .wrapper {
         width: 95%;
     }
@@ -265,7 +265,7 @@ p {
     background-color: #557C55;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991.98px) {
     .logo a {
         display: inline;
     }
