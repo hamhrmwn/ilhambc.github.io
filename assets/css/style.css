@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,500,700');
 
-
 * {
     text-decoration: none;
     margin: 0px;
@@ -192,15 +191,31 @@ p {
     border-radius: 12px;
 }
 
-@media screen and (max-width: 991.98px) {
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}
+
+@media screen and (max-width: 600px) {
     .wrapper {
-        width: 90%;
+        width: 95%;
     }
 
     .logo a {
         display: block;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     nav .menu {
@@ -230,5 +245,41 @@ p {
     }
     .kartu-kontak {
         width: 90%;
+    }
+    
+}
+
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #557C55;
+}
+
+@media screen and (max-width: 600px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;
+        border-bottom:1px solid #333333;
     }
 }
